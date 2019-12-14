@@ -10,11 +10,17 @@ Utilisation: ```$ python3 flow --model cfg/tiny-yolo-1c.cfg --train adam --label
 * Dans la dernière couche `region`, j'ai dû changer le paramétre `classes` a été mit à 1.
 
 `--train` permet de spéciphier l'optimisateur choisit pour la compiliation du modéle.
+
 `--labels` permet de spéciphier dans un fichier txt, le(s) label(s) (ici, un label: `human_face`).
+
 `--load` permet de charger/utiliser des poids.
+
 `--annotation` contient les fichiers XML montrant les ROIs des images.
+
 `--dataset` contient les images.
+
 `--gpu` permet d'utiliser un pourcentage du GPU.
+
 `--epoch` spéciphie l'epoch.
 
 À la fin ou à chaques 125 epochs, les fichiers `data-00000-of-00001`, `index`, `meta` et `profil` sont créés.
@@ -24,7 +30,6 @@ Les labels ont été créer à la main à partir de [labelImg](https://github.co
 
 Certains fichiers ne pouvaient pas être lu, notamment les fichiers GIF. De plus, rarement, l'outil [labelImg](https://github.com/tzutalin/labelImg) sauvegarde le fichier XML en mettant la longueur et la hauteur de l'image à 0. Le fichier `fileSearchjpgRm.py` a permis de pallier à certains de mes problèmes.
 
-[labelImg](https://github.com/tzutalin/labelImg)
 Mon dataset avec: 
 * [les images](https://google.com)
 * [les annotations](https://google.com)
