@@ -1,0 +1,4 @@
+epoch - moy loss - ecart loss - moy val_loss - ecart val_loss 
+1 0.123456 0.0 0.5432 0.0
+2 0.123456 0.0 0.5432 0.0
+3 0.123456 0.0 0.5432 0.0
