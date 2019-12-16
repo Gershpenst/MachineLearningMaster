@@ -1,5 +1,8 @@
 # Reconnaissance Facial à partir de dlib et VGG-16.
-Utilisation: ```$ python3 cameraPrediction.py```
+Utilisation:
+
+* Camera: ```$ python3 cameraPrediction.py```
+* Image: ```$ python3 cameraPrediction.py <path image>```
 
 # Détails fichiers
 Le fichier `cameraPrediction.py` permet de répérer et de prédire la tête d'une personne.
