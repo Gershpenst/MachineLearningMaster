@@ -17,3 +17,5 @@ Ce projet permet avant tout, de repérer un visage à partir de `tiny Yolo` sur 
 
 > Ce projet a été testé sur un Debian GNU/Linux 9.11 (stretch)
 > GPU NVIDIA GEFORCE GTX 950M
+
+> jackdempsey111 (Debian) & Gershpenst (macOS) représentent la même personne (Ali Nehme)
