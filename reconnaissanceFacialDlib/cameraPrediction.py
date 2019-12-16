@@ -1,48 +1,81 @@
 from imutils import face_utils
 import dlib
 import cv2
+import sys
+
 
 from faceImageSearchDlib import faceImageSearchDlib
 from predictFaces import PredictionPeople
 
-cap = cv2.VideoCapture(0)
+class cameraPrediction:
+    def __init__(self):
+        self.cap = cv2.Videoself.capture(0)
+        self.faceSearch = faceImageSearchDlib()
+        self.listClass = ["Bill Gates",
+        "Brad Pitt", "Donald Trump",
+        "jacques chirac", "jean lassalle",
+        "Jean pierre coffe",
+        "Jennifer lopez", "Marine lepen",
+        "Tom cruise"]
 
-faceSearch = faceImageSearchDlib()
+        # Initialisation du modéle pré-entrainer VGG-16
+        self.predictP = PredictionPeople("./recognize_vgg16.h5", self.listClass)
 
-listClass = ["Bill Gates",
-"Brad Pitt", "Donald Trump",
-"jacques chirac", "jean lassalle",
-"Jean pierre coffe",
-"Jennifer lopez", "Marine lepen",
-"Tom cruise"]
+    def camera(self):
+        while True:
+            recognitionStr = ""
 
-# Initialisation du modéle pré-entrainer VGG-16
-predictP = PredictionPeople("./recognize_vgg16.h5", listClass)
+            # Webcam
+            _, image = self.cap.read()
 
-while True:
-    recognitionStr = ""
+            # detection de visage + resize img + tête droite avec dlib
+            frame = self.faceSearch.detectVisage(image)
 
-    # Webcam
-    _, image = cap.read()
+            height, width, channels = frame.shape
 
-    # detection de visage + resize img + tête droite avec dlib
-    frame = faceSearch.detectVisage(image)
+            # traitement de frame pour prédiction avec VGG-16
+            if(height == 224 and width == 224 and channels == 3):
+                recognitionStr = self.predictP.predict(frame)
 
-    height, width, channels = frame.shape
+            # Affichage de la prédiciton si tête trouvé
+            image = cv2.putText(image, 'Visage: '+recognitionStr, (5, 30), cv2.FONT_HERSHEY_SIMPLEX,
+                            1, (0, 0, 255), 2, cv2.LINE_AA)
 
-    # traitement de frame pour prédiction avec VGG-16
-    if(height == 224 and width == 224 and channels == 3):
-        recognitionStr = predictP.predict(frame)
+            cv2.imshow("Output", image)
 
-    # Affichage de la prédiciton si tête trouvé
-    image = cv2.putText(image, 'Visage: '+recognitionStr, (5, 30), cv2.FONT_HERSHEY_SIMPLEX,
-                    1, (0, 0, 255), 2, cv2.LINE_AA)
+            k = cv2.waitKey(5) & 0xFF
+            if k == 27:
+                break
 
-    cv2.imshow("Output", image)
+        cv2.destroyAllWindows()
+        self.cap.release()
 
-    k = cv2.waitKey(5) & 0xFF
-    if k == 27:
-        break
+    def image(self, img):
+        recognitionStr = ""
+        image = cv2.imread(img)
 
-cv2.destroyAllWindows()
-cap.release()
+        # detection de visage + resize img + tête droite avec dlib
+        frame = self.faceSearch.detectVisage(image)
+
+        height, width, channels = frame.shape
+
+        # traitement de frame pour prédiction avec VGG-16
+        if(height == 224 and width == 224 and channels == 3):
+            recognitionStr = self.predictP.predict(frame)
+
+        # Affichage de la prédiciton si tête trouvé
+        image = cv2.putText(image, 'Visage: '+recognitionStr, (5, 30), cv2.FONT_HERSHEY_SIMPLEX,
+                        1, (0, 0, 255), 2, cv2.LINE_AA)
+
+        cv2.imshow("Output", image)
+
+        cv2.waitKey(0)
+        cv2.destroyAllWindows()
+
+
+if __name__ == "__main__":
+    cp = cameraPrediction()
+    if(len(sys.argv) == 1):
+        cp.camera()
+    else:
+        cp.image(sys.argv[1])
