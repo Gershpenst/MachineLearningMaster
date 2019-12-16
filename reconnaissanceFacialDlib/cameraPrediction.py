@@ -3,13 +3,12 @@ import dlib
 import cv2
 import sys
 
-
 from faceImageSearchDlib import faceImageSearchDlib
 from predictFaces import PredictionPeople
 
 class cameraPrediction:
     def __init__(self):
-        self.cap = cv2.Videoself.capture(0)
+        self.cap = cv2.VideoCapture(0)
         self.faceSearch = faceImageSearchDlib()
         self.listClass = ["Bill Gates",
         "Brad Pitt", "Donald Trump",
