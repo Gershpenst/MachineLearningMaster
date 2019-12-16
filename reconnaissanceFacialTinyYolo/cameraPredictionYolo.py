@@ -58,9 +58,9 @@ class cameraPrediction:
                     frame = cv2.putText(
                     frame, recognitionStr, r[0], cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 0), 2)
 
-                    cv2.imshow('frame', frame)
-                    cv2.waitKey(0)
-                    cv2.destroyAllWindows()
+        cv2.imshow('frame', frame)
+        cv2.waitKey(0)
+        cv2.destroyAllWindows()
 
 
 if __name__ == "__main__":
