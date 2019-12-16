@@ -14,3 +14,6 @@ Ce projet permet avant tout, de repérer un visage à partir de `tiny Yolo` sur 
 `reconnaissanceFacialDlib` - Reconnaissance Facial à partir de dlib et VGG-16.
 
 `reconnaissanceFacialTinyYolo` - Reconnaissance Facial à partir de Tiny Yolo et VGG-16 via Darkflow.
+
+> Ce projet a été testé sur un Debian GNU/Linux 9.11 (stretch)
+> GPU NVIDIA GEFORCE GTX 950M
