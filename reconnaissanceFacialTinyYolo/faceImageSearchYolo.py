@@ -8,7 +8,7 @@ class faceImageSearchYolo:
     def __init__(self):
         self.options = {
             'model': 'tiny-yolo-1c.cfg',
-            'load': 18600,
+            'load': 15375,
             'threshold': 0.3,
             'gpu': 1.0
         }

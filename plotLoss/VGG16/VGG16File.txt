@@ -1,76 +1,76 @@
 Epoch 1/38
- - 1448s - loss: 2.3011 - accuracy: 0.1268 - val_loss: 2.1878 - val_accuracy: 0.2000
+ - 1422s - loss: 2.1956 - accuracy: 0.1255 - val_loss: 2.2148 - val_accuracy: 0.1000
 Epoch 2/38
- - 1434s - loss: 2.2742 - accuracy: 0.1268 - val_loss: 2.1415 - val_accuracy: 0.2000
+ - 1414s - loss: 2.1907 - accuracy: 0.1411 - val_loss: 2.1923 - val_accuracy: 0.1000
 Epoch 3/38
- - 1456s - loss: 2.2777 - accuracy: 0.1393 - val_loss: 2.2881 - val_accuracy: 0.0000e+00
+ - 1406s - loss: 2.1868 - accuracy: 0.1351 - val_loss: 2.2129 - val_accuracy: 0.0000e+00
 Epoch 4/38
- - 1454s - loss: 2.2660 - accuracy: 0.1291 - val_loss: 2.2426 - val_accuracy: 0.1000
+ - 1399s - loss: 2.1862 - accuracy: 0.1448 - val_loss: 2.2651 - val_accuracy: 0.0000e+00
 Epoch 5/38
- - 1448s - loss: 2.2782 - accuracy: 0.1309 - val_loss: 2.2635 - val_accuracy: 0.0000e+00
+ - 1392s - loss: 2.1862 - accuracy: 0.1448 - val_loss: 2.1503 - val_accuracy: 0.3000
 Epoch 6/38
- - 1446s - loss: 2.2222 - accuracy: 0.1514 - val_loss: 2.2862 - val_accuracy: 0.1000
+ - 1408s - loss: 2.1856 - accuracy: 0.1448 - val_loss: 2.2265 - val_accuracy: 0.2000
 Epoch 7/38
- - 1445s - loss: 1.8346 - accuracy: 0.3149 - val_loss: 1.6504 - val_accuracy: 0.3000
+ - 1408s - loss: 2.1881 - accuracy: 0.1402 - val_loss: 2.1322 - val_accuracy: 0.2000
 Epoch 8/38
- - 1442s - loss: 1.4118 - accuracy: 0.5074 - val_loss: 1.6008 - val_accuracy: 0.4000
+ - 1406s - loss: 2.1861 - accuracy: 0.1443 - val_loss: 2.1967 - val_accuracy: 0.1000
 Epoch 9/38
- - 1439s - loss: 1.0083 - accuracy: 0.6883 - val_loss: 1.0366 - val_accuracy: 0.8000
+ - 1405s - loss: 2.1854 - accuracy: 0.1443 - val_loss: 2.2231 - val_accuracy: 0.1000
 Epoch 10/38
- - 1443s - loss: 0.6600 - accuracy: 0.7959 - val_loss: 0.4848 - val_accuracy: 0.8000
+ - 1406s - loss: 2.1847 - accuracy: 0.1443 - val_loss: 2.1012 - val_accuracy: 0.3000
 Epoch 11/38
- - 1445s - loss: 0.4435 - accuracy: 0.8557 - val_loss: 0.0360 - val_accuracy: 1.0000
+ - 1424s - loss: 2.1688 - accuracy: 0.1489 - val_loss: 2.0639 - val_accuracy: 0.1000
 Epoch 12/38
- - 1448s - loss: 0.3506 - accuracy: 0.8888 - val_loss: 0.0119 - val_accuracy: 1.0000
+ - 1411s - loss: 1.9003 - accuracy: 0.2767 - val_loss: 1.4518 - val_accuracy: 0.6000
 Epoch 13/38
- - 1442s - loss: 0.2902 - accuracy: 0.9169 - val_loss: 0.0519 - val_accuracy: 1.0000
+ - 1410s - loss: 1.3676 - accuracy: 0.5126 - val_loss: 1.1855 - val_accuracy: 0.6000
 Epoch 14/38
- - 1448s - loss: 0.2225 - accuracy: 0.9268 - val_loss: 0.2126 - val_accuracy: 1.0000
+ - 1400s - loss: 0.8942 - accuracy: 0.7109 - val_loss: 0.9946 - val_accuracy: 0.7000
 Epoch 15/38
- - 1451s - loss: 0.1556 - accuracy: 0.9482 - val_loss: 0.2044 - val_accuracy: 0.9000
+ - 1400s - loss: 0.6266 - accuracy: 0.7939 - val_loss: 0.4708 - val_accuracy: 1.0000
 Epoch 16/38
- - 1450s - loss: 0.1159 - accuracy: 0.9603 - val_loss: 0.0071 - val_accuracy: 1.0000
+ - 1440s - loss: 0.4676 - accuracy: 0.8525 - val_loss: 0.1761 - val_accuracy: 0.9000
 Epoch 17/38
- - 1449s - loss: 0.1239 - accuracy: 0.9665 - val_loss: 0.0619 - val_accuracy: 1.0000
+ - 1443s - loss: 0.3320 - accuracy: 0.8956 - val_loss: 0.3795 - val_accuracy: 0.9000
 Epoch 18/38
- - 1448s - loss: 0.0762 - accuracy: 0.9723 - val_loss: 0.5487 - val_accuracy: 0.9000
+ - 1435s - loss: 0.3041 - accuracy: 0.8997 - val_loss: 0.6310 - val_accuracy: 0.9000
 Epoch 19/38
- - 1445s - loss: 0.0721 - accuracy: 0.9803 - val_loss: 0.5503 - val_accuracy: 0.8000
+ - 1424s - loss: 0.2193 - accuracy: 0.9285 - val_loss: 0.1753 - val_accuracy: 0.9000
 Epoch 20/38
- - 1444s - loss: 0.0421 - accuracy: 0.9884 - val_loss: 0.0034 - val_accuracy: 1.0000
+ - 1423s - loss: 0.1676 - accuracy: 0.9473 - val_loss: 0.5544 - val_accuracy: 0.7000
 Epoch 21/38
- - 1446s - loss: 0.1106 - accuracy: 0.9669 - val_loss: 0.9330 - val_accuracy: 0.8000
+ - 1441s - loss: 0.1139 - accuracy: 0.9661 - val_loss: 1.5324 - val_accuracy: 0.7000
 Epoch 22/38
- - 1441s - loss: 0.0269 - accuracy: 0.9924 - val_loss: 0.8724 - val_accuracy: 0.9000
+ - 1440s - loss: 0.1279 - accuracy: 0.9588 - val_loss: 0.0797 - val_accuracy: 1.0000
 Epoch 23/38
- - 1442s - loss: 0.0886 - accuracy: 0.9732 - val_loss: 0.2326 - val_accuracy: 0.9000
+ - 1439s - loss: 0.1062 - accuracy: 0.9638 - val_loss: 0.4645 - val_accuracy: 0.8000
 Epoch 24/38
- - 1439s - loss: 0.0797 - accuracy: 0.9736 - val_loss: 0.1338 - val_accuracy: 0.9000
+ - 1426s - loss: 0.0632 - accuracy: 0.9812 - val_loss: 0.7788 - val_accuracy: 0.9000
 Epoch 25/38
- - 1438s - loss: 0.0579 - accuracy: 0.9866 - val_loss: 0.2781 - val_accuracy: 0.9000
+ - 1422s - loss: 0.0775 - accuracy: 0.9771 - val_loss: 0.6547 - val_accuracy: 0.8000
 Epoch 26/38
- - 1438s - loss: 0.0138 - accuracy: 0.9955 - val_loss: 2.4676e-06 - val_accuracy: 1.0000
+ - 1438s - loss: 0.0849 - accuracy: 0.9716 - val_loss: 0.0020 - val_accuracy: 1.0000
 Epoch 27/38
- - 1440s - loss: 0.0311 - accuracy: 0.9937 - val_loss: 6.1392e-06 - val_accuracy: 1.0000
+ - 1434s - loss: 0.0576 - accuracy: 0.9817 - val_loss: 0.7220 - val_accuracy: 0.9000
 Epoch 28/38
- - 1442s - loss: 0.0253 - accuracy: 0.9933 - val_loss: 2.1244 - val_accuracy: 0.7000
+ - 1438s - loss: 0.0517 - accuracy: 0.9812 - val_loss: 0.4868 - val_accuracy: 0.9000
 Epoch 29/38
- - 1439s - loss: 0.0125 - accuracy: 0.9969 - val_loss: 0.1204 - val_accuracy: 0.9000
+ - 1420s - loss: 0.0268 - accuracy: 0.9904 - val_loss: 0.0357 - val_accuracy: 1.0000
 Epoch 30/38
- - 1451s - loss: 0.0179 - accuracy: 0.9955 - val_loss: 1.1791 - val_accuracy: 0.8000
+ - 1423s - loss: 0.0054 - accuracy: 0.9977 - val_loss: 0.6019 - val_accuracy: 0.9000
 Epoch 31/38
- - 1440s - loss: 0.0022 - accuracy: 0.9996 - val_loss: 4.1727 - val_accuracy: 0.7000
+ - 1429s - loss: 0.0995 - accuracy: 0.9702 - val_loss: 0.6687 - val_accuracy: 0.6000
 Epoch 32/38
- - 1432s - loss: 0.0771 - accuracy: 0.9795 - val_loss: 1.3693 - val_accuracy: 0.7000
+ - 1435s - loss: 0.0242 - accuracy: 0.9954 - val_loss: 0.0834 - val_accuracy: 1.0000
 Epoch 33/38
- - 1422s - loss: 0.0285 - accuracy: 0.9920 - val_loss: 2.3183 - val_accuracy: 0.7000
+ - 1428s - loss: 0.0352 - accuracy: 0.9899 - val_loss: 3.6986e-04 - val_accuracy: 1.0000
 Epoch 34/38
- - 1424s - loss: 0.0541 - accuracy: 0.9915 - val_loss: 1.3065 - val_accuracy: 0.8000
+ - 1415s - loss: 0.0025 - accuracy: 0.9995 - val_loss: 0.6067 - val_accuracy: 0.8000
 Epoch 35/38
- - 1425s - loss: 0.0404 - accuracy: 0.9884 - val_loss: 2.4673 - val_accuracy: 0.6000
+ - 1413s - loss: 2.9106e-04 - accuracy: 1.0000 - val_loss: 0.0000e+00 - val_accuracy: 1.0000
 Epoch 36/38
- - 1424s - loss: 0.0287 - accuracy: 0.9920 - val_loss: 0.8505 - val_accuracy: 0.8333
+ - 1426s - loss: 1.2961e-04 - accuracy: 1.0000 - val_loss: 1.0729e-07 - val_accuracy: 1.0000
 Epoch 37/38
- - 1424s - loss: 7.9239e-04 - accuracy: 1.0000 - val_loss: 0.6423 - val_accuracy: 0.9000
+ - 1432s - loss: 8.2104e-05 - accuracy: 1.0000 - val_loss: 0.7974 - val_accuracy: 0.9000
 Epoch 38/38
- - 1424s - loss: 1.7491e-04 - accuracy: 1.0000 - val_loss: 1.1802e-06 - val_accuracy: 1.0000
+ - 1424s - loss: 6.2822e-05 - accuracy: 1.0000 - val_loss: 0.7270 - val_accuracy: 0.9000

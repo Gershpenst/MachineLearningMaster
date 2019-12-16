@@ -30,9 +30,10 @@ Les labels ont été créer à la main à partir de [labelImg](https://github.co
 
 Certains fichiers ne pouvaient pas être lu, notamment les fichiers GIF. De plus, rarement, l'outil [labelImg](https://github.com/tzutalin/labelImg) sauvegarde le fichier XML en mettant la longueur et la hauteur de l'image à 0. Le fichier `fileSearchjpgRm.py` a permis de pallier à certains de mes problèmes.
 
-Mon dataset avec: 
-* [les images](https://google.com)
-* [les annotations](https://google.com)
+Mon dataset avec [les images et les annotations](https://drive.google.com/open?id=1cbvnhoXK9ggQO2k8oPwfCbvpnMMRANlr).
 
-Le fichier [tiny-yolo.weights](https://google.com).
-Mes [poids](https://google.com) finaux générés à partir de `Darkflow`.
+Les poids utilisés: [tiny_yolo.weights](https://drive.google.com/open?id=1RDzBxnmB0kNIA89UIfMZiYLFj02OQTj5).
+
+Les poids obtenus :
+* `tiny Yolo`: [tinyYolo basics](https://drive.google.com/open?id=1iOCNDxTVvvBY-3Q6BV2RNam6fB_mdIVP). (bas des sourcils + moitié menton)
+* `tiny Yolo`: [tinyYolo amélioré](https://drive.google.com/open?id=1pBftHxL_dfa67Rl2TI9U4QnlWaNfH-Qr). (front + menton)

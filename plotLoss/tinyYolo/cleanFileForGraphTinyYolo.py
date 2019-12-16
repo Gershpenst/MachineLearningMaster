@@ -56,7 +56,7 @@ eval_loss = []
 
 firstEpoch = True
 
-with open("test.txt", "r") as f:
+with open("tinyYoloFile.txt", "r") as f:
     lignes = f.readlines()
     for ligne in lignes:
         strVal = ligne.split(" ")

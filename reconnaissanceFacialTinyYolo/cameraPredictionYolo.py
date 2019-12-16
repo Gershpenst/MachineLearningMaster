@@ -13,7 +13,7 @@ listClass = ['ali',
             "Jennifer lopez", "Marine lepen",
             "Tom cruise"]
 
-predictP = PredictionPeople("./recognize_4class_1_0.5dropoutPlus.h5", listClass)
+predictP = PredictionPeople("./recognize_vgg16.h5", listClass)
 
 if __name__ == "__main__":
     faceDetectYolo = faceImageSearchYolo()

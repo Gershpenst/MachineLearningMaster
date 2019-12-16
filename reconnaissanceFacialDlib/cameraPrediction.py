@@ -18,7 +18,7 @@ listClass = ['ali',
 "Tom cruise"]
 
 # Initialisation du modéle pré-entrainer VGG-16
-predictP = PredictionPeople("./recognize_4class_1_0.5dropoutPlus.h5", listClass)
+predictP = PredictionPeople("./recognize_vgg16.h5", listClass)
 
 while True:
     recognitionStr = ""
