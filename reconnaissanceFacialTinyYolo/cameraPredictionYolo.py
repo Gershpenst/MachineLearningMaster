@@ -5,8 +5,7 @@ import cv2
 from faceImageSearchYolo import faceImageSearchYolo
 from predictFaces import PredictionPeople
 
-listClass = ['ali',
-            'other', "Bill Gates",
+listClass = ["Bill Gates",
             "Brad Pitt", "Donald Trump",
             "jacques chirac", "jean lassalle",
             "Jean pierre coffe",
